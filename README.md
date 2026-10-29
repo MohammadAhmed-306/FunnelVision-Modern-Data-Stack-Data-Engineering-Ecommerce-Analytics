@@ -26,7 +26,7 @@ transformed, tested, and presented through a local analytics dashboard.
 
 ## Architecture
 
-![FunnelVision Architecture](./FunnelVision%20Modern%20Data%20Stack%20Architecture.png)
+![FunnelVision Modern Data Stack Architecture](./FunnelVision%20Modern%20Data%20Stack%20Architecture.png)
 
 ### Pipeline Flow
 
