@@ -1,0 +1,93 @@
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Airflow
+# ==============================
+airflow/logs/*
+!airflow/logs/.gitkeep
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# ==============================
+# dbt
+# ==============================
+dbt/logs/
+dbt/target/
+dbt/dbt_packages/
+dbt/profiles.yml
+dbt/.user.yml
+dbt/funnelvision/logs/
+dbt/funnelvision/target/
+dbt/funnelvision/dbt_packages/
+dbt/funnelvision/profiles.yml
+dbt/funnelvision/.user.yml
+
+# ==============================
+# Raw datasets and local data
+# ==============================
+data/raw/*.csv
+data/raw/*.csv.gz
+data/raw/*.zip
+data/processed/
+data/interim/
+*.parquet
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==============================
+# IDE and operating system
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Local Docker overrides
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Downloaded project datasets
+# ==============================
+data_requirements/*.zip
+data_requirements/*.csv

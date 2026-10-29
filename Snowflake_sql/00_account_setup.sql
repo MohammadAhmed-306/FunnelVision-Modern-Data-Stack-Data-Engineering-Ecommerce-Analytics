@@ -1,0 +1,8 @@
+USE ROLE ACCOUNTADMIN;
+
+SET my_user = CURRENT_USER();
+
+SET cmd = 'ALTER USER "' || $my_user ||
+          '" SET DEFAULT_SECONDARY_ROLES = (''ALL'')';
+
+EXECUTE IMMEDIATE $cmd;
