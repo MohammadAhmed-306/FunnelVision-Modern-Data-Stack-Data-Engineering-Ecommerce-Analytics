@@ -26,17 +26,9 @@ transformed, tested, and presented through a local analytics dashboard.
 
 ## Architecture
 
-``` mermaid
-flowchart TD
-    A[Raw CSV Data] --> B[Apache Airflow]
-    B --> C[Snowflake]
-    C --> D[dbt Staging Models]
-    D --> E[dbt Intermediate Models]
-    E --> F[dbt Marts]
-    F --> G[dbt Data Quality Tests]
-    F --> H[Streamlit Dashboard]
-    I[Docker Compose] -. Orchestrates Services .-> B
-    I -. Orchestrates Services .-> H
+```
+![FunnelVision Architecture](funnelvision-architecture.png)
+
 ```
 
 ### Pipeline Flow
