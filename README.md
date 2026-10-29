@@ -124,15 +124,6 @@ Docker Compose. It presents analytics derived from the transformed
 models, including website traffic, conversion, marketing channels,
 orders, revenue, and refunds.
 
-### Dashboard Screenshots
-
-Create a `screenshots/` directory in the project root, add your actual
-dashboard screenshots, and update the path below to match your filename:
-
-``` markdown
-![FunnelVision Dashboard](screenshots/funnelvision-dashboard.png)
-```
-
 ## Project Structure
 
 ``` text
