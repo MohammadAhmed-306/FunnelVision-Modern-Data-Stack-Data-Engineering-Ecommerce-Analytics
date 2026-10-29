@@ -26,10 +26,7 @@ transformed, tested, and presented through a local analytics dashboard.
 
 ## Architecture
 
-```
 ![FunnelVision Architecture](funnelvision-architecture.png)
-
-```
 
 ### Pipeline Flow
 
